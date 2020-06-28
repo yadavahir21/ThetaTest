@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/screen_back">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/dimen_16dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="@dimen/dimen_10dp"
+                app:cardElevation="@dimen/dimen_4dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/dimen_8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtRegisterTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/philosopher"
+                        android:gravity="center"
+                        android:text="@string/txt_register"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="@dimen/text_30sp" />
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/cardUserRegister"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/dimen_8dp"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:cardCornerRadius="@dimen/dimen_10dp">
+
+                        <ImageView
+                            android:id="@+id/imgUserRegister"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/ic_add_profile_pic" />
+                    </com.google.android.material.card.MaterialCardView>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/dimen_8dp"
+                        android:background="@drawable/shadow_rounded_corner_darkbg"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/dimen_8dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/ic_user_name" />
+
+                        <View
+                            android:layout_width="0.4dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="8dp"
+                            android:background="@drawable/login_line" />
+
+                        <EditText
+                            android:id="@+id/edtUserNameRegister"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/edittext_background"
+                            android:fontFamily="@font/philosopher"
+                            android:hint="@string/txt_user_name"
+                            android:inputType="text"
+                            android:singleLine="true"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/md_grey_700"
+                            android:textCursorDrawable="@drawable/color_cursor" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/dimen_8dp"
+                        android:background="@drawable/shadow_rounded_corner_darkbg"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/dimen_8dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/ic_email" />
+
+                        <View
+                            android:layout_width="0.4dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="8dp"
+                            android:background="@drawable/login_line" />
+
+                        <EditText
+                            android:id="@+id/edtEmailRegister"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/edittext_background"
+                            android:fontFamily="@font/philosopher"
+                            android:hint="@string/txt_email"
+                            android:inputType="textEmailAddress"
+                            android:singleLine="true"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/md_grey_700"
+                            android:textCursorDrawable="@drawable/color_cursor" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/dimen_8dp"
+                        android:background="@drawable/shadow_rounded_corner_darkbg"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/dimen_8dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/ic_password" />
+
+                        <View
+                            android:layout_width="0.4dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="8dp"
+                            android:background="@drawable/login_line" />
+
+                        <EditText
+                            android:id="@+id/edtPasswordRegister"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/edittext_background"
+                            android:fontFamily="@font/philosopher"
+                            android:hint="@string/txt_password"
+                            android:inputType="textPassword"
+                            android:singleLine="true"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/md_grey_700"
+                            android:textCursorDrawable="@drawable/color_cursor" />
+                    </LinearLayout>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnRegister"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/dimen_8dp"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:fontFamily="@font/philosopher"
+                        android:text="@string/txt_register"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "63199251485",
+    "firebase_url": "https://fleet-volt-243305.firebaseio.com",
+    "project_id": "fleet-volt-243305",
+    "storage_bucket": "fleet-volt-243305.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63199251485:android:75fbfb9611aa338f9f8af4",
+        "android_client_info": {
+          "package_name": "com.raghu.thetapracticle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63199251485-g9ffrt0lmrk6u7tc6toj0fo3lfpcaepk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7spGUraWn0rsF1ieANM5pClQFlhcG710"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "63199251485-g9ffrt0lmrk6u7tc6toj0fo3lfpcaepk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

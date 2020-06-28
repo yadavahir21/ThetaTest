@@ -1,0 +1,23 @@
+<resources>
+
+  <dimen name="dimen_1dp">1dp</dimen>
+  <dimen name="dimen_2dp">2dp</dimen>
+  <dimen name="dimen_4dp">4dp</dimen>
+  <dimen name="dimen_8dp">8dp</dimen>
+  <dimen name="dimen_10dp">10dp</dimen>
+  <dimen name="dimen_16dp">16dp</dimen>
+  <dimen name="dimen_18dp">18dp</dimen>
+  <dimen name="dimen_20dp">20dp</dimen>
+  <dimen name="dimen_24dp">24dp</dimen>
+
+  <dimen name="text_14sp">14sp</dimen>
+  <dimen name="text_16sp">16sp</dimen>
+  <dimen name="text_18sp">18sp</dimen>
+  <dimen name="text_24sp">24sp</dimen>
+  <dimen name="text_28sp">28sp</dimen>
+  <dimen name="text_30sp">30sp</dimen>
+  <dimen name="title_text_size">24sp</dimen>
+  <dimen name="small_text">12sp</dimen>
+  <dimen name="medium__text">14sp</dimen>
+  <dimen name="large_text">18sp</dimen>
+</resources>

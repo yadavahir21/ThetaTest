@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ThetaTest</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="map">Map</string>
+    <string name="profile">Profile</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_user_name">UserName</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_create_new_Accouunt">Create New Account</string>
+    <string name="txt_register">Register</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_register_success">Register SuccessFully</string>
+    <string name="txt_email_already_exists">Email Already Exists</string>
+    <string name="txt_profile_update_success">Profile Update SuccessFully</string>
+    <string name="txt_update">Update</string>
+    <string name="txt_check_emailid_or_password">EmailID OR Password Incorrect</string>
+    <string name="txt_login_success">Login Success</string>
+    <string name="txt_enter_user_name">Enter UserName</string>
+    <string name="txt_enter_password">Enter Password</string>
+    <string name="txt_enter_email_id">Enter EmailID</string>
+    <string name="txt_logout">Logout</string>
+    <string name="txt_select_photo_from">Select Photo From</string>
+    <string name="txt_choose_from_gallery">Choose from Gallery</string>
+    <string name="txt_take_a_picture">Take a Picture</string>
+    <string name="txt_image">images</string>
+    <string name="txt_logout_msg">Are you Sure went to LOGOUT ?</string>
+    <string name="txt_yes">Yes</string>
+    <string name="txt_no">No</string>
+    <string name="txt_toast_image_intent_null">Image picker option is missing!</string>
+    <string name="google_maps_key">AIzaSyBCtVedwif9Y2J5zGSvi3sjY7y85KlOFAo</string>
+
+</resources>

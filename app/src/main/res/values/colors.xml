@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#720d5d</color>
+    <color name="colorPrimaryDark">#430033</color>
+    <color name="colorAccent">#e30425</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="selected_tab_color">#FFFFFF</color>
+    <color name="unselected_tab_color">#C5C5C5</color>
+    <color name="screen_back">#50919090</color>
+    <color name="md_grey_500">#9E9E9E</color>
+    <color name="md_grey_700">#616161</color>
+    <color name="md_grey_800">#424242</color>
+    <color name="select_gb">#fbfbfb</color>
+</resources>
